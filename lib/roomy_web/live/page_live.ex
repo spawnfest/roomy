@@ -1,4 +1,5 @@
 defmodule RoomyWeb.PageLive do
+  @moduledoc false
   use RoomyWeb, :live_view
 
   @impl true
