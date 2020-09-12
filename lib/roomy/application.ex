@@ -14,7 +14,8 @@ defmodule Roomy.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Roomy.PubSub},
       # Start the Endpoint (http/https)
-      RoomyWeb.Endpoint
+      RoomyWeb.Endpoint,
+      Roomy.RoomServer
       # Start a worker by calling: Roomy.Worker.start_link(arg)
       # {Roomy.Worker, arg}
     ]

@@ -17,7 +17,7 @@ defmodule RoomyWeb.Router do
   scope "/", RoomyWeb do
     pipe_through :browser
 
-    live "/", PageLive, :index
+    live "/", RoomLive, :index
   end
 
   # Other scopes may use custom stacks.
